@@ -1,0 +1,83 @@
+/*!
+ * Start Bootstrap - Landing Page (http://startbootstrap.com/template-overviews/landing-page)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+
+.cover {
+    position: relative;
+}
+
+.img-cover {
+    margin-top: 3%;
+    display: block;
+    width: 100%;
+    max-height: auto;
+    object-fit: cover;
+}
+
+.profile-row {
+    margin-top: 32px;
+}
+
+.btn-workshop:hover {
+    bottom: 8%;
+    transition: 0.5s;
+}
+
+.btn-inline {
+    background-color: #ffbe3c;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+    .btn-inline:hover {
+        background-color: #65e8d3;
+        bottom: 8%;
+        transition: 0.5s;
+    }
+
+@media only screen and (min-width: 767px) {
+    .btn-workshop {
+        position: absolute;
+        bottom: 7%;
+        right: 6%;
+    }
+}
+
+.passes {
+    margin: 0;
+    padding: 0;
+}
+
+    .passes li {
+        list-style: none;
+    }
+
+    .passes .pass {
+        background: #2f2f2f;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        transform: skewY(-1deg);
+        box-shadow: 10px -15px #ffbe3c;
+    }
+
+.max-width-75 {
+    max-width: 75%;
+}
+
+@media only screen and (max-width: 767px) {
+    .btn-workshop {
+        width: 100%;
+        margin: 0;
+    }
+}
