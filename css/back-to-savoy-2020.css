@@ -4,8 +4,42 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
  */
 
+ @font-face {
+    font-family: "NotoSans";
+    src: url("../fonts/NotoSans-VariableFont_wdth\,wght.ttf") format("truetype");
+}
+
+ body {
+    background-image: url("../img/lennart-background.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-family: NotoSans;
+  }
+
 .cover {
     position: relative;
+}
+
+.logo {        
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 500px;
+    max-width: 70%;
+  }
+
+  .logo-text {
+    margin-top: -40px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 36px;
+    color: #f28a11;
+  }
+
+.tinted-section {
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
 }
 
 .img-cover {
@@ -26,7 +60,7 @@
 }
 
 .btn-inline {
-    background-color: #ffbe3c;
+    background-color: #f28a11;
     border: none;
     color: black;
     padding: 15px 32px;
@@ -40,7 +74,7 @@
 }
 
     .btn-inline:hover {
-        background-color: #65e8d3;
+        background-color: #e3340c;
         bottom: 8%;
         transition: 0.5s;
     }
@@ -63,12 +97,12 @@
     }
 
     .passes .pass {
-        background: #2f2f2f;
+        background: #e3340c;
         color: white;
         padding: 10px;
         text-align: center;
         transform: skewY(-1deg);
-        box-shadow: 10px -15px #ffbe3c;
+        box-shadow: 10px -15px #f28a11;
     }
 
 .max-width-75 {
