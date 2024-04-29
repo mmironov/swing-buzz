@@ -10,11 +10,18 @@
 }
 
  body {
-    background-image: url("../img/lennart-background.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     font-family: NotoSans;
   }
+
+.div-background {
+    background-image: url("../img/lennart-background.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
 
 .cover {
     position: relative;
