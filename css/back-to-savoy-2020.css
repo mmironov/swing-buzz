@@ -61,6 +61,7 @@
 .tinted-section {
     background-color: rgba(0,0,0,.5);
     color: #fff;
+    padding: 16px;
 }
 
 .img-cover {
