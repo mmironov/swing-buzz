@@ -4,13 +4,8 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
  */
 
- @font-face {
-    font-family: "NotoSans";
-    src: url("../fonts/NotoSans-VariableFont_wdth\,wght.ttf") format("truetype");
-}
-
  body {
-    font-family: NotoSans;
+    font-family: "Noto Sans", sans-serif;
   }
 
 .div-background {
