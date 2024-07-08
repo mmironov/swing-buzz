@@ -102,25 +102,43 @@
         bottom: 7%;
         right: 6%;
     }
+
+    .passes > .pass:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .btn-workshop {
+        position: absolute;
+        bottom: 7%;
+        right: 6%;
+    }
+
+    .passes > .pass:not(:last-child) {
+        margin-bottom: 30px;
+    }
+    
 }
 
 .passes {
     margin: 0;
     padding: 0;
+    margin-bottom: 20px;
 }
 
-    .passes li {
-        list-style: none;
-    }
+.passes li {
+    list-style: none;
+}
 
-    .passes .pass {
-        background: #e3340c;
-        color: white;
-        padding: 10px;
-        text-align: center;
-        transform: skewY(-1deg);
-        box-shadow: 10px -15px #f28a11;
-    }
+.passes .pass {
+    background: #e3340c;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    transform: skewY(-1deg);
+    box-shadow: 10px -15px #f28a11;
+}
 
 .max-width-75 {
     max-width: 75%;
