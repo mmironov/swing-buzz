@@ -4203,7 +4203,11 @@ Location:
 /*============= HERO CSS AREA ===============*/
 /*============= MOBILE MENU CSS AREA ===============*/
 .mobile-header.mobile-haeder1 {
-  background: var(--ztc-bg-bg-2);
+  background-image: url(../img/bg/background-5.png);
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   position: fixed;
 }
 .mobile-header.mobile-haeder1 .mobile-logo {
@@ -8156,6 +8160,11 @@ Location:
 /*============= HEADER CSS AREA ===============*/
 .homepage1-body, html {
   overflow-x: hidden !important;
+  background-image: url(../img/bg/background-5.png);
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .commingsoon {
@@ -8389,7 +8398,9 @@ Location:
   animation-name: fade-in-down;
   animation-duration: 1s;
   animation-fill-mode: forwards;
-  background: var(--ztc-text-text-1);
+  background-image: url(../img/bg/background-5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   transition: all 0.4s;
 }
 
@@ -8414,8 +8425,8 @@ Location:
   padding: 0 !important;
 }
 .homepage1-body .header-area.homepage1 .header-elements .site-logo img {
-  width: 150px;
-  height: 45px;
+  width: auto;
+  height: 100px;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -8745,7 +8756,9 @@ Location:
   animation-duration: 1s;
   animation-fill-mode: forwards;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
-  background: var(--ztc-text-text-2);
+  background-image: url(../img/bg/background-5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   transition: all 0.4s;
 }
 
@@ -18656,6 +18669,19 @@ Location:
   background: var(--ztc-bg-bg-2);
   opacity: 0.5;
 }
+
+.testimonials1-section-area.reverse .testimonial-img2::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 48%;
+  left: 0;
+  top: 0;
+  transition: all 0.4s;
+  background: var(--ztc-bg-bg-2);
+  opacity: 0.5;
+}
+
 .testimonials1-section-area .testimonial-img2 img {
   position: absolute;
   right: 0;
@@ -18665,6 +18691,17 @@ Location:
      object-fit: cover;
   height: 100%;
 }
+
+.testimonials1-section-area.reverse .testimonial-img2 img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 48%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+
 .testimonials1-section-area .testimonial-content-slider .owl-nav {
   margin-top: 48px;
 }
