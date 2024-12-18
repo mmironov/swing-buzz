@@ -17553,12 +17553,12 @@ Location:
 .cta1-section-area .cta1-main-boxarea ul li {
   display: inline-block;
   margin: 0 24px 0 0;
-  padding-top: 32px;
+  padding-top: 10px;
 }
 .cta1-section-area .cta1-main-boxarea ul li a {
   color: var(--ztc-text-text-2);
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s24);
+  font-size: var(--ztc-font-size-font-s16);
   font-style: normal;
   font-weight: var(--ztc-weight-medium);
   line-height: 24px;
@@ -17566,16 +17566,16 @@ Location:
   transition: all 0.4s;
   border-radius: 4px;
   background: rgba(26, 23, 25, 0.05);
-  padding: 12px 10px;
+  padding: 6px 4px;
 }
 @media (max-width: 767px) {
   .cta1-section-area .cta1-main-boxarea ul li a {
-    line-height: 32px;
+    line-height: 24px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .cta1-section-area .cta1-main-boxarea ul li a {
-    line-height: 32px;
+    line-height: 24px;
   }
 }
 .cta1-section-area .cta1-main-boxarea ul li a img {
@@ -19361,6 +19361,19 @@ Location:
 .about1-section-area .about-header-area {
   padding: 0 0 0 30px;
 }
+
+.about1-section-area .about-header-area h5 {
+  color: var(--ztc-text-text-1);
+}
+
+.about1-section-area .about-header-area h2 {
+  color: var(--ztc-text-text-1);
+}
+
+.about1-section-area .about-header-area p.heading2 {
+  color: var(--ztc-text-text-1);
+}
+
 @media (max-width: 767px) {
   .about1-section-area .about-header-area {
     padding: 0;
@@ -21369,6 +21382,14 @@ Location:
   padding-top: 16px;
 }
 
+.event-sidepage-section-area {
+  background: #FBF9F4;
+}
+
+.event-sidepage-section-area.hero {
+  background: none;
+}
+
 .event-sidepage-section-area .event-side-images .img1 img {
   height: 100%;
   width: 100%;
@@ -21379,7 +21400,7 @@ Location:
 .event-sidepage-section-area .event-side-images h3 {
   color: var(--ztc-text-text-2);
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s36);
+  font-size: var(--ztc-font-size-font-s24);
   font-style: normal;
   font-weight: var(--ztc-weight-bold);
   line-height: 36px; /* 100% */
@@ -21387,7 +21408,7 @@ Location:
 .event-sidepage-section-area .event-side-images p {
   color: var(--ztc-text-text-3);
   font-family: var(--ztc-family-font2);
-  font-size: var(--ztc-font-size-font-s18);
+  font-size: var(--ztc-font-size-font-s16);
   font-style: normal;
   font-weight: var(--ztc-weight-medium);
   line-height: 24px;
@@ -21395,7 +21416,7 @@ Location:
 .event-sidepage-section-area .event-side-images h4 {
   color: var(--ztc-text-text-2);
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s28);
+  font-size: var(--ztc-font-size-font-s20);
   font-style: normal;
   font-weight: var(--ztc-weight-bold);
   line-height: 36px; /* 100% */
@@ -21408,7 +21429,7 @@ Location:
   color: var(--ztc-text-text-2);
   text-align: center;
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s24);
+  font-size: var(--ztc-font-size-font-s16);
   font-style: normal;
   font-weight: var(--ztc-weight-bold);
   line-height: 24px; /* 100% */
@@ -21419,7 +21440,7 @@ Location:
   color: var(--ztc-text-text-3);
   text-align: center;
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s18);
+  font-size: var(--ztc-font-size-font-s16);
   font-style: normal;
   font-weight: var(--ztc-weight-medium);
   line-height: 18px;
