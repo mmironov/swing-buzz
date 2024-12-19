@@ -1,15 +1,1 @@
-<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_2205_3443)">
-<path d="M10 19C15.0741 19 19.1875 14.8866 19.1875 9.8125C19.1875 4.73838 15.0741 0.625 10 0.625C4.92588 0.625 0.8125 4.73838 0.8125 9.8125C0.8125 14.8866 4.92588 19 10 19Z" stroke="#1A1719" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M7.78641 18.7322C6.54344 16.9094 5.71289 13.597 5.71289 9.81335C5.71289 6.02973 6.54344 2.71733 7.78641 0.894531" stroke="#1A1719" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M0.8125 9.8125H19.1875" stroke="#1A1719" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M2.22656 14.7109H17.7726" stroke="#1A1719" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M2.22656 4.91406H17.7726" stroke="#1A1719" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12.2148 0.894531C13.4578 2.71733 14.2884 6.02973 14.2884 9.81335C14.2884 13.597 13.4578 16.9094 12.2148 18.7322" stroke="#1A1719" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<defs>
-<clipPath id="clip0_2205_3443">
-<rect width="20" height="20" fill="white"/>
-</clipPath>
-</defs>
-</svg>
+<svg fill="none" height="20" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><clipPath id="a"><path d="m0 0h20v20h-20z"/></clipPath><g clip-path="url(#a)" stroke="#1a1719" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"><path d="m10 19c5.0741 0 9.1875-4.1134 9.1875-9.1875 0-5.07412-4.1134-9.1875-9.1875-9.1875-5.07412 0-9.1875 4.11338-9.1875 9.1875 0 5.0741 4.11338 9.1875 9.1875 9.1875z"/><path d="m7.78641 18.7322c-1.24297-1.8228-2.07352-5.1352-2.07352-8.91885 0-3.78362.83055-7.09602 2.07352-8.918819"/><path d="m.8125 9.8125h18.375"/><path d="m2.22656 14.7109h15.54604"/><path d="m2.22656 4.91406h15.54604"/><path d="m12.2148.894531c1.243 1.822799 2.0736 5.135199 2.0736 8.918819 0 3.78365-.8306 7.09605-2.0736 8.91885"/></g></svg>
