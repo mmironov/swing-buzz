@@ -1,799 +1,1224 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Eventify- Event And Conference Theme</title>
 
-		<!--=====FAB ICON=======-->
-		<link rel="shortcut icon" href="assets/img/logo/fav-logo1.png" />
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description"
+		content="Кандидатстудентска кампания 2025/26 на НАТФИЗ. Информация за специалности, прием, график на изпитите, документи и изисквания. Подгответе се за успех в НАТФИЗ!">
+	<meta name="keywords"
+		content="НАТФИЗ, кандидатстудентска кампания, 2025/26, прием, специалности, изпити, документи, изисквания">
+	<meta name="author" content="НАТФИЗ">
+	<meta name="robots" content="index, follow">
 
-		<!--===== CSS LINK =======-->
-		<link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
-		<link rel="stylesheet" href="assets/css/vendor/aos.css" />
-		<link rel="stylesheet" href="assets/css/vendor/fontawesome.css" />
-		<link rel="stylesheet" href="assets/css/vendor/magnific-popup.css" />
-		<link rel="stylesheet" href="assets/css/vendor/mobile.css" />
-		<link rel="stylesheet" href="assets/css/vendor/owlcarousel.min.css" />
-		<link rel="stylesheet" href="assets/css/vendor/sidebar.css" />
-		<link rel="stylesheet" href="assets/css/vendor/slick-slider.css" />
-		<link rel="stylesheet" href="assets/css/vendor/nice-select.css" />
-		<link rel="stylesheet" href="assets/css/vendor/odometer.css" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+	<!-- Open Graph / Social Media -->
+	<meta property="og:title" content="Кандидатстудентска кампания 2025/26 | НАТФИЗ">
+	<meta property="og:description"
+		content="Научете всичко за кандидатстването в НАТФИЗ през 2025/26. Специалности, график на изпитите и всичко необходимо за успешен старт в НАТФИЗ.">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://ksk.natfiz.bg/">
+	<meta property="og:image" content="https://ksk.natfiz.bg/assets/img/elements/og.png">
+	<meta property="og:locale" content="bg_BG">
 
-		<!--=====  JS SCRIPT LINK =======-->
-		<script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
-	</head>
-	<body class="homepage1-body">
-		<!-- Popup Section -->
-		<div id="popup" class="popup-overlay d-none">
-			<div class="popup-content">
-				<span class="close-btn" id="close-popup">&times;</span>
-				<div class="popup-icon">
-					<img src="assets/img/logo/popup-logo.png" alt="" />
-				</div>
-				<div class="space32"></div>
-				<div class="heading2">
-					<h2>Grow your business with our agency</h2>
-					<div class="space8"></div>
-					<ul>
-						<li><img src="assets/img/icons/check3.svg" alt="" />Elevate User Experience Expertise</li>
-						<li><img src="assets/img/icons/check3.svg" alt="" /> Elevate Your UI/UX Skills Designer</li>
-						<li><img src="assets/img/icons/check3.svg" alt="" />Join Leading UI/UX Event the Year</li>
-					</ul>
-				</div>
-				<div class="space50"></div>
-				<a class="vl-btn2" href="contact.html"
-					><span class="demo">Buy Ticket Now</span><span class="arrow"><i class="fa-solid fa-arrow-right"></i></span>
-				</a>
-				<p class="no-thanks">No thanks</p>
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Кандидатстудентска кампания 2025/26 | НАТФИЗ">
+	<meta name="twitter:description"
+		content="Подробности за кандидатстването в НАТФИЗ 2025/26. Специалности, изисквания и информация за приемните изпити.">
+	<meta name="twitter:image" content="https://natfiz.bg/assets/img/elements/og.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Кандидатстудентски консултации</title>
+
+	<!--=====FAB ICON=======-->
+	<link rel="shortcut icon" href="/apple-touch-icon.png" />
+
+	<!--===== CSS LINK =======-->
+	<link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
+	<link rel="stylesheet" href="assets/css/vendor/aos.css" />
+	<link rel="stylesheet" href="assets/css/vendor/fontawesome.css" />
+	<link rel="stylesheet" href="assets/css/vendor/magnific-popup.css" />
+	<link rel="stylesheet" href="assets/css/vendor/mobile.css" />
+	<link rel="stylesheet" href="assets/css/vendor/owlcarousel.min.css" />
+	<link rel="stylesheet" href="assets/css/vendor/sidebar.css" />
+	<link rel="stylesheet" href="assets/css/vendor/slick-slider.css" />
+	<link rel="stylesheet" href="assets/css/vendor/nice-select.css" />
+	<link rel="stylesheet" href="assets/css/vendor/odometer.css" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+
+	<!--=====  JS SCRIPT LINK =======-->
+	<script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
+</head>
+
+<body class="homepage1-body">
+	<!-- Popup Section -->
+	<!--===== PRELOADER STARTS =======-->
+	<div class="preloader">
+		<div class="loading-container">
+			<div class="loading"></div>
+			<div id="loading-icon">
+				<img src="assets/img/logo/logo.png" class="rounded-circle" alt="" />
 			</div>
 		</div>
-		<!--===== PRELOADER STARTS =======-->
-		<div class="preloader">
-			<div class="loading-container">
-				<div class="loading"></div>
-				<div id="loading-icon"><img src="assets/img/logo/preloader.png" alt="" /></div>
-			</div>
-		</div>
-		<!--===== PRELOADER ENDS =======-->
+	</div>
+	<!--===== PRELOADER ENDS =======-->
 
-		<!--===== PAGE PROGRESS START=======-->
-		<div class="paginacontainer">
-			<div class="progress-wrap">
-				<svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-					<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-				</svg>
-			</div>
+	<!--===== PAGE PROGRESS START=======-->
+	<div class="paginacontainer">
+		<div class="progress-wrap">
+			<svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+				<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+			</svg>
 		</div>
-		<!--===== PAGE PROGRESS END=======-->
+	</div>
+	<!--===== PAGE PROGRESS END=======-->
 
-		<!--=====HEADER START=======-->
-		<header>
-			<div class="header-area homepage1 header header-sticky d-none d-lg-block" id="header">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12">
-							<div class="header-elements">
-								<div class="site-logo">
-									<a href="index.html"><img src="assets/img/logo/logo1.png" alt="" /></a>
+	<!--=====HEADER START=======-->
+	<header>
+		<div class="header-area homepage1 header header-sticky d-none d-lg-block" id="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="header-elements">
+							<div class="site-logo">
+								<a href="index.html"><img src="assets/img/logo/logo_natfiz_filmeu_t_15042024.png"
+										alt="" /></a>
+							</div>
+							<div class="main-menu">
+								<ul>
+									<li><a href="index.html#schedule">График</a></li>
+									<li>
+										<a href="index.html#exams">Приемни изпити</a>
+									</li>
+									<li>
+										<a href="index.html#specialties">Специалности</a>
+									</li>
+
+									<li>
+										<a href="index.html#students">За студентите </a>
+									</li>
+									<li>
+										<a href="index.html#contacts">Контакти </a>
+									</li>
+									<li>
+										<a href="index.html#documents">Документи</a>
+									</li>
+								</ul>
+							</div>
+							<div class="header-search-form-wrapper">
+								<div class="tx-search-close tx-close">
+									<i class="fa-solid fa-xmark"></i>
 								</div>
-								<div class="main-menu">
-									<ul>
-										<li>
-											<a href="#">Home <i class="fa-solid fa-angle-down"></i></a>
-											<div class="tp-submenu">
-												<div class="row">
-													<div class="col-lg-12">
-														<div class="all-images-menu">
-															<div class="homemenu-thumb">
-																<div class="img1">
-																	<img src="assets/img/all-images/demo/demo-img1.png" alt="" />
-																</div>
-																<div class="homemenu-btn">
-																	<a class="vl-btn1" href="index.html">View Demo </a>
-																</div>
-																<div class="homemenu-text">
-																	<a href="index.html">Eventify-Homepage 01</a>
-																</div>
-															</div>
+								<div class="header-search-container">
+									<form role="search" class="search-form">
+										<input type="search" class="search-field" placeholder="Search …" value=""
+											name="s" />
+										<button type="submit" class="search-submit">
+											<img src="assets/img/icons/search1.svg" alt="" />
+										</button>
+									</form>
+								</div>
+							</div>
+							<div class="body-overlay"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--=====HEADER END =======-->
 
-															<div class="homemenu-thumb">
-																<div class="img1">
-																	<img src="assets/img/all-images/demo/demo-img2.png" alt="" />
-																</div>
-																<div class="homemenu-btn">
-																	<a class="vl-btn1" href="index2.html">View Demo </a>
-																</div>
-																<div class="homemenu-text">
-																	<a href="index2.html">Eventify-Homepage 02</a>
-																</div>
-															</div>
+	<!--===== MOBILE HEADER STARTS =======-->
+	<div class="mobile-header mobile-haeder1 d-block d-lg-none">
+		<div class="container-fluid">
+			<div class="col-12">
+				<div class="mobile-header-elements">
+					<div class="mobile-logo">
+						<a href="index.html"><img src="assets/img/logo/logo_natfiz_filmeu_t_15042024.png" alt="" /></a>
+					</div>
+					<div class="mobile-nav-icon dots-menu">
+						<i class="fa-solid fa-bars-staggered"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-															<div class="homemenu-thumb">
-																<div class="img1">
-																	<img src="assets/img/all-images/demo/demo-img3.png" alt="" />
-																</div>
-																<div class="homemenu-btn">
-																	<a class="vl-btn1" href="index3.html">View Demo </a>
-																</div>
-																<div class="homemenu-text">
-																	<a href="index3.html">Eventify-Homepage 03</a>
-																</div>
-															</div>
+	<div class="mobile-sidebar mobile-sidebar1">
+		<div class="logosicon-area">
+			<div class="logos">
+				<img src="assets/img/logo/logo_natfiz_filmeu_t_15042024.png" alt=""
+					style="filter: invert(100%); -webkit-filter: invert(100%)" />
+			</div>
+			<div class="menu-close">
+				<i class="fa-solid fa-xmark"></i>
+			</div>
+		</div>
+		<div class="mobile-nav mobile-nav1">
+			<ul class="mobile-nav-list nav-list1">
+				<li><a href="index.html#schedule">График</a></li>
+				<li>
+					<a href="index.html#exams">Приемни изпити</a>
+				</li>
+				<li>
+					<a href="index.html#specialties">Специалности</a>
+				</li>
 
-															<div class="homemenu-thumb">
-																<div class="img1">
-																	<img src="assets/img/all-images/demo/demo-img4.png" alt="" />
-																</div>
-																<div class="homemenu-btn">
-																	<a class="vl-btn1" href="index4.html">View Demo </a>
-																</div>
-																<div class="homemenu-text">
-																	<a href="index4.html">Eventify-Homepage 04</a>
-																</div>
-															</div>
+				<li>
+					<a href="index.html#students">За студентите </a>
+				</li>
+				<li>
+					<a href="index.html#contacts">Контакти </a>
+				</li>
+				<li>
+					<a href="index.html#documents">Документи</a>
+				</li>
+			</ul>
+			<div class="allmobilesection">
+				<div class="single-footer">
+					<h3>Контакти</h3>
+					<div class="footer1-contact-info">
+						<div class="contact-info-single">
+							<div class="contact-info-icon">
+								<span><i class="fa-solid fa-phone-volume"></i></span>
+							</div>
+							<div class="contact-info-text">
+								<a href="tel:+35929231303">тел: 02/9231 303 / 088 900 2331</a>
+							</div>
+						</div>
+						<div class="contact-info-single">
+							<div class="contact-info-icon">
+								<span><i class="fa-solid fa-envelope"></i></span>
+							</div>
+							<div class="contact-info-text">
+								<a href="mailto:info@natfiz.bg">info@natfiz.bg</a>
+							</div>
+						</div>
+						<div class="single-footer">
+							<h3>Адрес</h3>
+							<div class="contact-info-single">
+								<div class="contact-info-icon">
+									<span><i class="fa-solid fa-location-dot"></i></span>
+								</div>
+								<div class="contact-info-text">
+									<a href="mailto:info@natfiz.bg">София 1000, </br>
+										ул. “Г. С. Раковски” 108А</a>
+								</div>
+							</div>
+						</div>
+						<div class="single-footer">
+							<h3>Социални мрежи</h3>
+							<div class="social-links-mobile-menu">
+								<ul>
+									<li>
+										<a href="https://www.facebook.com/natfiz.bg/"><i
+												class="fa-brands fa-facebook-f"></i></a>
+									</li>
+									<li>
+										<a href="https://www.instagram.com/natfiz_kr.sarafov/"><i
+												class="fa-brands fa-instagram"></i></a>
+									</li>
+									<li>
+										<a href="https://www.youtube.com/channel/UCydryIcY7swlV_JjbRF10kw"><i
+												class="fa-brands fa-youtube"></i></a>
+									</li>
+									<li>
+										<a
+											href="https://www.linkedin.com/school/national-academy-of-theatre-and-film-arts-kr-sarafov/"><i
+												class="fa-brands fa-linkedin"></i></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--===== MOBILE HEADER STARTS =======-->
 
-															<div class="homemenu-thumb" style="margin: 0">
-																<div class="img1">
-																	<img src="assets/img/all-images/demo/demo-img5.png" alt="" />
-																</div>
-																<div class="homemenu-btn">
-																	<a class="vl-btn1" href="index5.html">View Demo </a>
-																</div>
-																<div class="homemenu-text">
-																	<a href="index5.html">Eventify-Homepage 05</a>
-																</div>
-															</div>
-														</div>
+	<!--===== HERO AREA STARTS =======-->
+	<div class="hero1-section-area">
+		<div class="bg1">
+			<img src="assets/img/bg/background-5.png" alt="" class="header-bg1" />
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="hero1-header heading1">
+						<h1 class="text-anime-style-3">
+							Кандидатстудентски консултации
+						</h1>
+						<div class="space16"></div>
+						<p data-aos="fade-left" data-aos-duration="900">
+							Провеждат се през месеците април, май и юни <br class="d-lg-block d-none" />
+						</p>
+						<div class="space32"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--===== HERO AREA ENDS =======-->
 
-														<div class="all-images-menu">
-															<div class="homemenu-thumb">
-																<div class="img1">
-																	<img src="assets/img/all-images/demo/demo-img6.png" alt="" />
-																</div>
-																<div class="homemenu-btn">
-																	<a class="vl-btn1" href="index6.html">View Demo </a>
-																</div>
-																<div class="homemenu-text">
-																	<a href="index6.html">Eventify-Homepage 06</a>
-																</div>
-															</div>
+	<!--===== OTHERS AREA STARTS =======-->
+	<div class="choose-section-area sp2">
+		<div class="container">
+			<div class="row">
+				<article class="single-page-content mb-5">
+					<p>Консултациите за образователна степен <strong>„Бакалавър“</strong> са<strong> групови
+						</strong>и<strong> индивидуални</strong>. Консултациите за образователна степен<strong>
+							„Магистър“</strong> са <strong>индивидуални</strong>.</p>
+					<ol>
+						<li style="list-style: disc !important;"><strong>Груповите консултации </strong>за
+							<strong>специалностите за образователна степен
+								“Бакалавър”</strong> във<strong> Факултет “Сценични изкуства”</strong> са<strong> 30
+								академични часа</strong> и се провеждат по предварително обявен график за различните
+							специалности. За участие в консултациите се заплаща сумата от<strong> 400 лв.
+							</strong><em><br>
+							</em>
+						</li>
+						<li style="list-style: disc !important;"><strong>Груповите консултации </strong>за<strong>
+								специалностите за образователна степен
+								“Бакалавър”</strong> във<strong> Факултет “Екранни изкуства”</strong> са<strong> 8
+								академични часа. </strong>Кандидатите трябва да заявят <strong>една</strong> от
+							изброените дати и да заплатят за участие в консултациите сумата от<strong> 100 лв.
+							</strong>Учебни групи се сформират при най-малко 5-ма записани кандидат-студенти, и
+							най-много 50. Ако броят на записалите се е по-малък, консултациите ще бъдат индивидуални.
+						</li>
+						<li style="list-style: disc !important;"><strong>Индивидуалните консултации</strong> се
+							провеждат след подаване на заявление онлайн и
+							заплащане на такса от <strong>30 лв.</strong> за<strong> един академичен час</strong>. В
+							заявлението се посочва броят на часовете и името на преподавател за провеждане на
+							консултацията и периодът от време.</li>
+					</ol>
+					<p><strong>Кандидат-студентите могат да се запишат за консултации чрез подаване на заявление онлайн
+							на посочения имейл за конкретната специалност. След изпращане на заявление онлайн,
+							кандидатите НЕ получават допълнително потвърждение по имейл. С кандидатите се свързва
+							служител, само ако се изисква допълнителна информация или уточнение. Денят преди датата за
+							съответната консултация, кандидатите ще получат имейл с указание за часа и мястото на
+							провеждане.</strong></p>
+					<p>&nbsp;</p>
+					<p><strong>За специалностите от Факултет „Екранни изкуства“ –</strong>
+						<a href="mailto:fei_ksk@natfiz.bg">fei_ksk@natfiz.bg</a>
+					</p>
+					<p>Консултациите се провеждат през <strong>април, май или юни.</strong></p>
+					<p>&nbsp;</p>
+					<p><strong>За специалностите от Факултет „Сценични изкуства“:</strong></p>
 
-															<div class="homemenu-thumb">
-																<div class="img1">
-																	<img src="assets/img/all-images/demo/demo-img7.png" alt="" />
-																</div>
-																<div class="homemenu-btn">
-																	<a class="vl-btn1" href="index7.html">View Demo </a>
-																</div>
-																<div class="homemenu-text">
-																	<a href="index7.html">Eventify-Homepage 07</a>
-																</div>
-															</div>
+					<!--===== EVENT AREA STARTS =======-->
+					<div class="schedule-section-area sp10">
+						<div class="container">
+							<div class="row">
+								<div class="col m-auto">
+									<div class="d-none d-md-block schedule table-responsive">
+										<table class="table">
+											<thead>
+												<tr>
+													<th>Абревиатура</th>
+													<th>Специалност</th>
+													<th>Период 1</th>
+													<th>Период 2</th>
+													<th>Период 3</th>
+													<th>Контакт</th>
+												</tr>
+											</thead>
+											<tbody>
+												<!-- БАКАЛАВЪРСКИ СПЕЦИАЛНОСТИ -->
+												<tr>
+													<th colspan="6" style="text-align:left;">БАКАЛАВЪРСКИ СПЕЦИАЛНОСТИ
+													</th>
+												</tr>
+												<tr>
+													<td>АДТ</td>
+													<td>
+														<a href="https://natfiz.bg/aktiorstvo-za-dramatichen-teatar/"
+															target="_blank" rel="noopener">
+															Актьорство за драматичен театър
+														</a>
+													</td>
+													<td>17.04.-21.04.2025 г.</td>
+													<td>30.05.-03.06.2025 г.</td>
+													<td>02.06.-06.06.2025 г.</td>
+													<td><a href="mailto:adt-ksk@natfiz.bg">adt-ksk@natfiz.bg</a></td>
+												</tr>
+												<tr>
+													<td>РДТ</td>
+													<td>
+														<a href="https://natfiz.bg/rezhisura-za-dramatichen-teatar/"
+															target="_blank" rel="noopener">
+															Режисура за драматичен театър
+														</a>
+													</td>
+													<td>17.04.-21.04.2025 г.</td>
+													<td>30.05.-03.06.2025 г.</td>
+													<td>02.06.-06.06.2025 г.</td>
+													<td><a href="mailto:rdt@natfiz.bg">rdt@natfiz.bg</a></td>
+												</tr>
+												<tr>
+													<td>АКТ</td>
+													<td>
+														<a href="https://natfiz.bg/akt-info/" target="_blank"
+															rel="noopener">
+															Актьорство за куклен театър
+														</a>
+													</td>
+													<td>30.05.-03.06.2025 г.</td>
+													<td colspan="2" style="text-align:center;">—</td>
+													<td><a href="mailto:akt@natfiz.bg">akt@natfiz.bg</a></td>
+												</tr>
+												<tr>
+													<td>Сценография</td>
+													<td>
+														<a href="https://natfiz.bg/stsenografiya/" target="_blank"
+															rel="noopener">
+															Сценография
+														</a>
+													</td>
+													<td colspan="3" style="text-align:center;">Онлайн</td>
+													<td><a href="mailto:sc@natfiz.bg">sc@natfiz.bg</a></td>
+												</tr>
+												<tr>
+													<td>ТТМ</td>
+													<td>
+														<a href="https://natfiz.bg/teatroznanie-i-teatralen-menidzhmant/"
+															target="_blank" rel="noopener">
+															Театрознание и театрален мениджмънт
+														</a>
+													</td>
+													<td>17.04.-21.04.2025 г. (онлайн)</td>
+													<td colspan="2" style="text-align:center;">—</td>
+													<td><a href="mailto:ttm2024@natfiz.bg">ttm2024@natfiz.bg</a></td>
+												</tr>
+												<tr>
+													<td>РКТ</td>
+													<td>
+														<a href="https://natfiz.bg/rezhisura-za-kuklen-teatar/"
+															target="_blank" rel="noopener">
+															Режисура за куклен театър
+														</a>
+													</td>
+													<td>30.05.-03.06.2025 г.</td>
+													<td>16.06.-20.06.2025 г.</td>
+													<td style="text-align:center;">—</td>
+													<td style="text-align:center;">—</td>
+												</tr>
+												<tr>
+													<td>ТД-ТТ</td>
+													<td>
+														<a href="https://natfiz.bg/teatar-na-dvizhenieto-tantsov-teatar/"
+															target="_blank" rel="noopener">
+															Театър на движението – танцов театър
+														</a>
+													</td>
+													<td>17.04.-21.04.2025 г.</td>
+													<td>16.06.-20.06.2025 г.</td>
+													<td style="text-align:center;">—</td>
+													<td style="text-align:center;">—</td>
+												</tr>
 
-															<div class="homemenu-thumb">
-																<div class="img1">
-																	<img src="assets/img/all-images/demo/demo-img8.png" alt="" />
-																</div>
-																<div class="homemenu-btn">
-																	<a class="vl-btn1" href="index8.html">View Demo </a>
-																</div>
-																<div class="homemenu-text">
-																	<a href="index8.html">Eventify-Homepage 08</a>
-																</div>
-															</div>
+												<!-- МАГИСТЪРСКИ СПЕЦИАЛНОСТИ -->
+												<tr>
+													<th colspan="6" style="text-align:left;">МАГИСТЪРСКИ СПЕЦИАЛНОСТИ
+													</th>
+												</tr>
+												<tr>
+													<td>МСИИ</td>
+													<td>
+														<a href="https://natfiz.bg/menidzhmant-v-stsenichnite-izkustva-i-industrii/"
+															target="_blank" rel="noopener">
+															Мениджмънт в сценичните изкуства и индустрии
+														</a>
+													</td>
+													<td>01.04.-06.04.2025 г.</td>
+													<td colspan="2" style="text-align:center;">—</td>
+													<td><a href="mailto:msii@natfiz.bg">msii@natfiz.bg</a></td>
+												</tr>
+												<tr>
+													<td>ПР</td>
+													<td>
+														<a href="https://natfiz.bg/publichna-rech/" target="_blank"
+															rel="noopener">
+															Публична реч
+														</a>
+													</td>
+													<td>01.04.-06.04.2025 г.</td>
+													<td>30.05.-03.06.2025 г.</td>
+													<td style="text-align:center;">—</td>
+													<td><a href="mailto:prech@natfiz.bg">prech@natfiz.bg</a></td>
+												</tr>
+												<tr>
+													<td>ТИОС</td>
+													<td>
+														<a href="https://natfiz.bg/teatralno-izkustvo-v-obrazovatelna-sreda/"
+															target="_blank" rel="noopener">
+															Театрално изкуство в образователна среда
+														</a>
+													</td>
+													<td colspan="3" style="text-align:center;">Април, май или юни</td>
+													<td><a
+															href="mailto:toshko_dimitrov@yahoo.com">toshko_dimitrov@yahoo.com</a>
+													</td>
+												</tr>
+												<tr>
+													<td>СКСК</td>
+													<td>
+														<a href="https://natfiz.bg/savremenno-kino-v-svetovnata-kultura/"
+															target="_blank" rel="noopener">
+															Съвременното кино в световната култура
+														</a>
+													</td>
+													<td colspan="3" style="text-align:center;">Април, май или юни</td>
+													<td><a href="mailto:sksk@natfiz.bg">sksk@natfiz.bg</a></td>
+												</tr>
+												<tr>
+													<td>ТИ</td>
+													<td>
+														<a href="https://natfiz.bg/teatralno-izkustvo/" target="_blank"
+															rel="noopener">
+															Театрално изкуство
+														</a>
+													</td>
+													<td colspan="3" style="text-align:center;">Онлайн</td>
+													<td><a href="mailto:ti@natfiz.bg">ti@natfiz.bg</a></td>
+												</tr>
+												<tr>
+													<td>РСИ</td>
+													<td>
+														<a href="https://natfiz.bg/rezhisura-v-stsenichnite-izkustva/"
+															target="_blank" rel="noopener">
+															Режисура в сценичните изкуства
+														</a>
+													</td>
+													<td colspan="3" style="text-align:center;">Април, май или юни</td>
+													<td><a href="mailto:rsi@natfiz.bg">rsi@natfiz.bg</a></td>
+												</tr>
+												<tr>
+													<td>РКТП</td>
+													<td>
+														<a href="https://natfiz.bg/rezhisura-v-kukleno-teatralnite-praktiki/"
+															target="_blank" rel="noopener">
+															Режисура в куклено-театралните практики
+														</a>
+													</td>
+													<td>30.05.-03.06.2025 г.</td>
+													<td colspan="2" style="text-align:center;">—</td>
+													<td><a href="mailto:rktp@natfiz.bg">rktp@natfiz.bg</a></td>
+												</tr>
+												<tr>
+													<td>ОТКТ</td>
+													<td>
+														<a href="https://natfiz.bg/obrazovatelen-i-terapevtichen-kuklen-teatar/"
+															target="_blank" rel="noopener">
+															Образователен и терапевтичен куклен театър
+														</a>
+													</td>
+													<td>30.05.-03.06.2025 г.</td>
+													<td>16.06.-20.06.2025 г.</td>
+													<td style="text-align:center;">—</td>
+													<td><a href="mailto:docgeorgieva@abv.bg">docgeorgieva@abv.bg</a>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+									<div class="my-4 d-block d-md-none">
+										<div class="faq-inner-section-area">
+											<div class="faq-widget-area">
+												<!-- Tab buttons -->
+												<ul role="tablist">
+													<li><button class="active w-100" data-bs-toggle="tab"
+															data-bs-target="#bachelorTab" role="tab"
+															aria-selected="true">БАКАЛАВЪРСКИ СПЕЦИАЛНОСТИ</button></li>
+													<li><button class="w-100" data-bs-toggle="tab"
+															data-bs-target="#masterTab" role="tab"
+															aria-selected="false">МАГИСТЪРСКИ СПЕЦИАЛНОСТИ</button></li>
+												</ul>
 
-															<div class="homemenu-thumb">
-																<div class="img1">
-																	<img src="assets/img/all-images/demo/demo-img9.png" alt="" />
-																</div>
-																<div class="homemenu-btn">
-																	<a class="vl-btn1" href="index9.html">View Demo </a>
-																</div>
-																<div class="homemenu-text">
-																	<a href="index9.html">Eventify-Homepage 09</a>
-																</div>
-															</div>
+												<div class="tab-content mt-3">
+													<!-- БАКАЛАВЪРСКИ СПЕЦИАЛНОСТИ -->
+													<div class="tab-pane fade show active" id="bachelorTab"
+														role="tabpanel">
+														<div class="faq-section-area">
+															<div class="accordian-area accordion"
+																id="bachelorAccordion">
 
-															<div class="homemenu-thumb" style="margin: 0">
-																<div class="img1">
-																	<img src="assets/img/all-images/demo/demo-img10.png" alt="" />
+																<!-- АДТ -->
+																<div class="accordion-item">
+																	<h2 class="accordion-header" id="headingADT">
+																		<button class="accordion-button" type="button"
+																			data-bs-toggle="collapse"
+																			data-bs-target="#collapseADT"
+																			aria-expanded="true"
+																			aria-controls="collapseADT">
+																			АДТ – Актьорство за драматичен театър
+																		</button>
+																	</h2>
+																	<div id="collapseADT"
+																		class="accordion-collapse collapse show"
+																		aria-labelledby="headingADT"
+																		data-bs-parent="#bachelorAccordion">
+																		<div class="accordion-body">
+																			<p><strong>Период 1:</strong>
+																				17.04.-21.04.2025 г.</p>
+																			<p><strong>Период 2:</strong>
+																				30.05.-03.06.2025 г.</p>
+																			<p><strong>Период 3:</strong>
+																				02.06.-06.06.2025 г.</p>
+																			<p><strong>Контакт:</strong> <a
+																					href="mailto:adt-ksk@natfiz.bg">adt-ksk@natfiz.bg</a>
+																			</p>
+																			<p><a href="https://natfiz.bg/aktiorstvo-za-dramatichen-teatar/"
+																					target="_blank"
+																					rel="noopener">Повече информация</a>
+																			</p>
+																		</div>
+																	</div>
 																</div>
-																<div class="homemenu-btn">
-																	<a class="vl-btn1" href="index10.html">View Demo </a>
+
+																<!-- РДТ -->
+																<div class="accordion-item">
+																	<h2 class="accordion-header" id="headingRDT">
+																		<button class="accordion-button collapsed"
+																			type="button" data-bs-toggle="collapse"
+																			data-bs-target="#collapseRDT"
+																			aria-expanded="false"
+																			aria-controls="collapseRDT">
+																			РДТ – Режисура за драматичен театър
+																		</button>
+																	</h2>
+																	<div id="collapseRDT"
+																		class="accordion-collapse collapse"
+																		aria-labelledby="headingRDT"
+																		data-bs-parent="#bachelorAccordion">
+																		<div class="accordion-body">
+																			<p><strong>Период 1:</strong>
+																				17.04.-21.04.2025 г.</p>
+																			<p><strong>Период 2:</strong>
+																				30.05.-03.06.2025 г.</p>
+																			<p><strong>Период 3:</strong>
+																				02.06.-06.06.2025 г.</p>
+																			<p><strong>Контакт:</strong> <a
+																					href="mailto:rdt@natfiz.bg">rdt@natfiz.bg</a>
+																			</p>
+																			<p><a href="https://natfiz.bg/rezhisura-za-dramatichen-teatar/"
+																					target="_blank"
+																					rel="noopener">Повече информация</a>
+																			</p>
+																		</div>
+																	</div>
 																</div>
-																<div class="homemenu-text">
-																	<a href="index10.html">Eventify-Homepage 10</a>
+
+																<!-- АКТ -->
+																<div class="accordion-item">
+																	<h2 class="accordion-header" id="headingAKT">
+																		<button class="accordion-button collapsed"
+																			type="button" data-bs-toggle="collapse"
+																			data-bs-target="#collapseAKT"
+																			aria-expanded="false"
+																			aria-controls="collapseAKT">
+																			АКТ – Актьорство за куклен театър
+																		</button>
+																	</h2>
+																	<div id="collapseAKT"
+																		class="accordion-collapse collapse"
+																		aria-labelledby="headingAKT"
+																		data-bs-parent="#bachelorAccordion">
+																		<div class="accordion-body">
+																			<p><strong>Период 1:</strong>
+																				30.05.-03.06.2025 г.</p>
+																			<p><strong>Период 2:</strong> —</p>
+																			<p><strong>Период 3:</strong> —</p>
+																			<p><strong>Контакт:</strong> <a
+																					href="mailto:akt@natfiz.bg">akt@natfiz.bg</a>
+																			</p>
+																			<p><a href="https://natfiz.bg/akt-info/"
+																					target="_blank"
+																					rel="noopener">Повече информация</a>
+																			</p>
+																		</div>
+																	</div>
 																</div>
+
+																<!-- Сценография -->
+																<div class="accordion-item">
+																	<h2 class="accordion-header" id="headingScen">
+																		<button class="accordion-button collapsed"
+																			type="button" data-bs-toggle="collapse"
+																			data-bs-target="#collapseScen"
+																			aria-expanded="false"
+																			aria-controls="collapseScen">
+																			Сценография
+																		</button>
+																	</h2>
+																	<div id="collapseScen"
+																		class="accordion-collapse collapse"
+																		aria-labelledby="headingScen"
+																		data-bs-parent="#bachelorAccordion">
+																		<div class="accordion-body">
+																			<p><strong>Периоди:</strong> Онлайн</p>
+																			<p><strong>Контакт:</strong> <a
+																					href="mailto:sc@natfiz.bg">sc@natfiz.bg</a>
+																			</p>
+																			<p><a href="https://natfiz.bg/stsenografiya/"
+																					target="_blank"
+																					rel="noopener">Повече информация</a>
+																			</p>
+																		</div>
+																	</div>
+																</div>
+
+																<!-- ТТМ -->
+																<div class="accordion-item">
+																	<h2 class="accordion-header" id="headingTTM">
+																		<button class="accordion-button collapsed"
+																			type="button" data-bs-toggle="collapse"
+																			data-bs-target="#collapseTTM"
+																			aria-expanded="false"
+																			aria-controls="collapseTTM">
+																			ТТМ – Театрознание и театрален мениджмънт
+																		</button>
+																	</h2>
+																	<div id="collapseTTM"
+																		class="accordion-collapse collapse"
+																		aria-labelledby="headingTTM"
+																		data-bs-parent="#bachelorAccordion">
+																		<div class="accordion-body">
+																			<p><strong>Период 1:</strong>
+																				17.04.-21.04.2025 г. (онлайн)</p>
+																			<p><strong>Период 2:</strong> —</p>
+																			<p><strong>Период 3:</strong> —</p>
+																			<p><strong>Контакт:</strong> <a
+																					href="mailto:ttm2024@natfiz.bg">ttm2024@natfiz.bg</a>
+																			</p>
+																			<p><a href="https://natfiz.bg/teatroznanie-i-teatralen-menidzhmant/"
+																					target="_blank"
+																					rel="noopener">Повече информация</a>
+																			</p>
+																		</div>
+																	</div>
+																</div>
+
+																<!-- РКТ -->
+																<div class="accordion-item">
+																	<h2 class="accordion-header" id="headingRKT">
+																		<button class="accordion-button collapsed"
+																			type="button" data-bs-toggle="collapse"
+																			data-bs-target="#collapseRKT"
+																			aria-expanded="false"
+																			aria-controls="collapseRKT">
+																			РКТ – Режисура за куклен театър
+																		</button>
+																	</h2>
+																	<div id="collapseRKT"
+																		class="accordion-collapse collapse"
+																		aria-labelledby="headingRKT"
+																		data-bs-parent="#bachelorAccordion">
+																		<div class="accordion-body">
+																			<p><strong>Период 1:</strong>
+																				30.05.-03.06.2025 г.</p>
+																			<p><strong>Период 2:</strong>
+																				16.06.-20.06.2025 г.</p>
+																			<p><strong>Период 3:</strong> —</p>
+																			<p><strong>Контакт:</strong> —</p>
+																			<p><a href="https://natfiz.bg/rezhisura-za-kuklen-teatar/"
+																					target="_blank"
+																					rel="noopener">Повече информация</a>
+																			</p>
+																		</div>
+																	</div>
+																</div>
+
+																<!-- ТД-ТТ -->
+																<div class="accordion-item">
+																	<h2 class="accordion-header" id="headingTDT">
+																		<button class="accordion-button collapsed"
+																			type="button" data-bs-toggle="collapse"
+																			data-bs-target="#collapseTDT"
+																			aria-expanded="false"
+																			aria-controls="collapseTDT">
+																			ТД-ТТ – Театър на движението – танцов театър
+																		</button>
+																	</h2>
+																	<div id="collapseTDT"
+																		class="accordion-collapse collapse"
+																		aria-labelledby="headingTDT"
+																		data-bs-parent="#bachelorAccordion">
+																		<div class="accordion-body">
+																			<p><strong>Период 1:</strong>
+																				17.04.-21.04.2025 г.</p>
+																			<p><strong>Период 2:</strong>
+																				16.06.-20.06.2025 г.</p>
+																			<p><strong>Период 3:</strong> —</p>
+																			<p><strong>Контакт:</strong> —</p>
+																			<p><a href="https://natfiz.bg/teatar-na-dvizhenieto-tantsov-teatar/"
+																					target="_blank"
+																					rel="noopener">Повече информация</a>
+																			</p>
+																		</div>
+																	</div>
+																</div>
+
 															</div>
 														</div>
 													</div>
+
+													<!-- МАГИСТЪРСКИ СПЕЦИАЛНОСТИ -->
+													<div class="tab-pane fade" id="masterTab" role="tabpanel">
+														<div class="faq-section-area">
+															<div class="accordian-area accordion" id="masterAccordion">
+
+																<!-- МСИИ -->
+																<div class="accordion-item">
+																	<h2 class="accordion-header" id="headingMSII">
+																		<button class="accordion-button" type="button"
+																			data-bs-toggle="collapse"
+																			data-bs-target="#collapseMSII"
+																			aria-expanded="true"
+																			aria-controls="collapseMSII">
+																			МСИИ – Мениджмънт в сценичните изкуства и
+																			индустрии
+																		</button>
+																	</h2>
+																	<div id="collapseMSII"
+																		class="accordion-collapse collapse show"
+																		aria-labelledby="headingMSII"
+																		data-bs-parent="#masterAccordion">
+																		<div class="accordion-body">
+																			<p><strong>Период 1:</strong>
+																				01.04.-06.04.2025 г.</p>
+																			<p><strong>Контакт:</strong> <a
+																					href="mailto:msii@natfiz.bg">msii@natfiz.bg</a>
+																			</p>
+																			<p><a href="https://natfiz.bg/menidzhmant-v-stsenichnite-izkustva-i-industrii/"
+																					target="_blank"
+																					rel="noopener">Повече информация</a>
+																			</p>
+																		</div>
+																	</div>
+																</div>
+
+																<!-- ПР -->
+																<div class="accordion-item">
+																	<h2 class="accordion-header" id="headingPR">
+																		<button class="accordion-button collapsed"
+																			type="button" data-bs-toggle="collapse"
+																			data-bs-target="#collapsePR"
+																			aria-expanded="false"
+																			aria-controls="collapsePR">
+																			ПР – Публична реч
+																		</button>
+																	</h2>
+																	<div id="collapsePR"
+																		class="accordion-collapse collapse"
+																		aria-labelledby="headingPR"
+																		data-bs-parent="#masterAccordion">
+																		<div class="accordion-body">
+																			<p><strong>Период 1:</strong>
+																				01.04.-06.04.2025 г.</p>
+																			<p><strong>Период 2:</strong>
+																				30.05.-03.06.2025 г.</p>
+																			<p><strong>Контакт:</strong> <a
+																					href="mailto:prech@natfiz.bg">prech@natfiz.bg</a>
+																			</p>
+																			<p><a href="https://natfiz.bg/publichna-rech/"
+																					target="_blank"
+																					rel="noopener">Повече информация</a>
+																			</p>
+																		</div>
+																	</div>
+																</div>
+
+																<!-- ТИОС -->
+																<div class="accordion-item">
+																	<h2 class="accordion-header" id="headingTIOS">
+																		<button class="accordion-button collapsed"
+																			type="button" data-bs-toggle="collapse"
+																			data-bs-target="#collapseTIOS"
+																			aria-expanded="false"
+																			aria-controls="collapseTIOS">
+																			ТИОС – Театрално изкуство в образователна
+																			среда
+																		</button>
+																	</h2>
+																	<div id="collapseTIOS"
+																		class="accordion-collapse collapse"
+																		aria-labelledby="headingTIOS"
+																		data-bs-parent="#masterAccordion">
+																		<div class="accordion-body">
+																			<p><strong>Периоди:</strong> Април, май или
+																				юни</p>
+																			<p><strong>Контакт:</strong> <a
+																					href="mailto:toshko_dimitrov@yahoo.com">toshko_dimitrov@yahoo.com</a>
+																			</p>
+																			<p><a href="https://natfiz.bg/teatralno-izkustvo-v-obrazovatelna-sreda/"
+																					target="_blank"
+																					rel="noopener">Повече информация</a>
+																			</p>
+																		</div>
+																	</div>
+																</div>
+
+																<!-- СКСК -->
+																<div class="accordion-item">
+																	<h2 class="accordion-header" id="headingSKSK">
+																		<button class="accordion-button collapsed"
+																			type="button" data-bs-toggle="collapse"
+																			data-bs-target="#collapseSKSK"
+																			aria-expanded="false"
+																			aria-controls="collapseSKSK">
+																			СКСК – Съвременното кино в световната
+																			култура
+																		</button>
+																	</h2>
+																	<div id="collapseSKSK"
+																		class="accordion-collapse collapse"
+																		aria-labelledby="headingSKSK"
+																		data-bs-parent="#masterAccordion">
+																		<div class="accordion-body">
+																			<p><strong>Периоди:</strong> Април, май или
+																				юни</p>
+																			<p><strong>Контакт:</strong> <a
+																					href="mailto:sksk@natfiz.bg">sksk@natfiz.bg</a>
+																			</p>
+																			<p><a href="https://natfiz.bg/savremenno-kino-v-svetovnata-kultura/"
+																					target="_blank"
+																					rel="noopener">Повече информация</a>
+																			</p>
+																		</div>
+																	</div>
+																</div>
+
+																<!-- ТИ -->
+																<div class="accordion-item">
+																	<h2 class="accordion-header" id="headingTI">
+																		<button class="accordion-button collapsed"
+																			type="button" data-bs-toggle="collapse"
+																			data-bs-target="#collapseTI"
+																			aria-expanded="false"
+																			aria-controls="collapseTI">
+																			ТИ – Театрално изкуство
+																		</button>
+																	</h2>
+																	<div id="collapseTI"
+																		class="accordion-collapse collapse"
+																		aria-labelledby="headingTI"
+																		data-bs-parent="#masterAccordion">
+																		<div class="accordion-body">
+																			<p><strong>Период:</strong> Онлайн</p>
+																			<p><strong>Контакт:</strong> <a
+																					href="mailto:ti@natfiz.bg">ti@natfiz.bg</a>
+																			</p>
+																			<p><a href="https://natfiz.bg/teatralno-izkustvo/"
+																					target="_blank"
+																					rel="noopener">Повече информация</a>
+																			</p>
+																		</div>
+																	</div>
+																</div>
+
+																<!-- РСИ -->
+																<div class="accordion-item">
+																	<h2 class="accordion-header" id="headingRSI">
+																		<button class="accordion-button collapsed"
+																			type="button" data-bs-toggle="collapse"
+																			data-bs-target="#collapseRSI"
+																			aria-expanded="false"
+																			aria-controls="collapseRSI">
+																			РСИ – Режисура в сценичните изкуства
+																		</button>
+																	</h2>
+																	<div id="collapseRSI"
+																		class="accordion-collapse collapse"
+																		aria-labelledby="headingRSI"
+																		data-bs-parent="#masterAccordion">
+																		<div class="accordion-body">
+																			<p><strong>Периоди:</strong> Април, май или
+																				юни</p>
+																			<p><strong>Контакт:</strong> <a
+																					href="mailto:rsi@natfiz.bg">rsi@natfiz.bg</a>
+																			</p>
+																			<p><a href="https://natfiz.bg/rezhisura-v-stsenichnite-izkustva/"
+																					target="_blank"
+																					rel="noopener">Повече информация</a>
+																			</p>
+																		</div>
+																	</div>
+																</div>
+
+																<!-- РКТП -->
+																<div class="accordion-item">
+																	<h2 class="accordion-header" id="headingRKTP">
+																		<button class="accordion-button collapsed"
+																			type="button" data-bs-toggle="collapse"
+																			data-bs-target="#collapseRKTP"
+																			aria-expanded="false"
+																			aria-controls="collapseRKTP">
+																			РКТП – Режисура в куклено-театралните
+																			практики
+																		</button>
+																	</h2>
+																	<div id="collapseRKTP"
+																		class="accordion-collapse collapse"
+																		aria-labelledby="headingRKTP"
+																		data-bs-parent="#masterAccordion">
+																		<div class="accordion-body">
+																			<p><strong>Период 1:</strong>
+																				30.05.-03.06.2025 г.</p>
+																			<p><strong>Контакт:</strong> <a
+																					href="mailto:rktp@natfiz.bg">rktp@natfiz.bg</a>
+																			</p>
+																			<p><a href="https://natfiz.bg/rezhisura-v-kukleno-teatralnite-praktiki/"
+																					target="_blank"
+																					rel="noopener">Повече информация</a>
+																			</p>
+																		</div>
+																	</div>
+																</div>
+
+																<!-- ОТКТ -->
+																<div class="accordion-item">
+																	<h2 class="accordion-header" id="headingOTKT">
+																		<button class="accordion-button collapsed"
+																			type="button" data-bs-toggle="collapse"
+																			data-bs-target="#collapseOTKT"
+																			aria-expanded="false"
+																			aria-controls="collapseOTKT">
+																			ОТКТ – Образователен и терапевтичен куклен
+																			театър
+																		</button>
+																	</h2>
+																	<div id="collapseOTKT"
+																		class="accordion-collapse collapse"
+																		aria-labelledby="headingOTKT"
+																		data-bs-parent="#masterAccordion">
+																		<div class="accordion-body">
+																			<p><strong>Период 1:</strong>
+																				30.05.-03.06.2025 г.</p>
+																			<p><strong>Период 2:</strong>
+																				16.06.-20.06.2025 г.</p>
+																			<p><strong>Контакт:</strong> <a
+																					href="mailto:docgeorgieva@abv.bg">docgeorgieva@abv.bg</a>
+																			</p>
+																			<p><a href="https://natfiz.bg/obrazovatelen-i-terapevtichen-kuklen-teatar/"
+																					target="_blank"
+																					rel="noopener">Повече информация</a>
+																			</p>
+																		</div>
+																	</div>
+																</div>
+
+															</div>
+														</div>
+													</div>
+
 												</div>
 											</div>
-										</li>
-										<li><a href="about.html">About Event</a></li>
-										<li>
-											<a href="#">Speakers <i class="fa-solid fa-angle-down"></i></a>
-											<ul class="dropdown-padding">
-												<li><a href="speakers.html">Speakers</a></li>
-												<li><a href="speakers-single.html">Speakers Details</a></li>
-											</ul>
-										</li>
+										</div>
 
-										<li>
-											<a href="#">Schedule <i class="fa-solid fa-angle-down"></i></a>
-											<ul class="dropdown-padding">
-												<li><a href="event.html">Our Event</a></li>
-												<li><a href="event-schedule.html">Event Schedule</a></li>
-												<li><a href="event-single.html">Event Details</a></li>
-											</ul>
-										</li>
-										<li>
-											<a href="#">Blogs <i class="fa-solid fa-angle-down"></i></a>
-											<ul class="dropdown-padding">
-												<li><a href="blog.html">Our Blog</a></li>
-												<li><a href="blog-single.html">Blog Details</a></li>
-											</ul>
-										</li>
-										<li>
-											<a href="#">Pages <i class="fa-solid fa-angle-down"></i></a>
-											<ul class="dropdown-padding">
-												<li><a href="memories.html">Our Memories</a></li>
-												<li><a href="pricing-plan.html">Pricing Plan</a></li>
-												<li><a href="faq.html">FAQ,s</a></li>
-												<li><a href="contact.html">Contact Us</a></li>
-											</ul>
-										</li>
-									</ul>
-								</div>
-								<div class="btn-area">
-									<div class="search-icon header__search header-search-btn">
-										<a href="#"><img src="assets/img/icons/search1.svg" alt="" /></a>
-									</div>
-									<ul>
-										<li>
-											<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-										</li>
-										<li>
-											<a href="#"><i class="fa-brands fa-instagram"></i></a>
-										</li>
-										<li>
-											<a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-										</li>
-										<li>
-											<a href="#" class="m-0"><i class="fa-brands fa-pinterest-p"></i></a>
-										</li>
-									</ul>
-								</div>
-
-								<div class="header-search-form-wrapper">
-									<div class="tx-search-close tx-close"><i class="fa-solid fa-xmark"></i></div>
-									<div class="header-search-container">
-										<form role="search" class="search-form">
-											<input type="search" class="search-field" placeholder="Search …" value="" name="s" />
-											<button type="submit" class="search-submit"><img src="assets/img/icons/search1.svg" alt="" /></button>
-										</form>
 									</div>
 								</div>
-								<div class="body-overlay"></div>
 							</div>
 						</div>
 					</div>
-				</div>
+					<!--===== EVENT AREA ENDS =======-->
+
+					<p><span><strong>*За допълнителна информация, като часове и място на
+								провеждане, моля следете сайта. </strong></span></p>
+					<p>&nbsp;</p>
+					<h3><strong>Как да се запиша:</strong></h3>
+				</article>
 			</div>
-		</header>
-		<!--=====HEADER END =======-->
-
-		<!--===== MOBILE HEADER STARTS =======-->
-		<div class="mobile-header mobile-haeder1 d-block d-lg-none">
-			<div class="container-fluid">
-				<div class="col-12">
-					<div class="mobile-header-elements">
-						<div class="mobile-logo">
-							<a href="index.html"><img src="assets/img/logo/logo1.png" alt="" /></a>
+			<div class="row">
+				<div class="col-lg-4 col-md-6">
+					<div class="choose-widget-boxarea">
+						<div class="icons">
+							<img src="assets/img/icons/icons8-1-50.png" width="32px" height="32px" alt="" />
 						</div>
-						<div class="mobile-nav-icon dots-menu">
-							<i class="fa-solid fa-bars-staggered"></i>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="mobile-sidebar mobile-sidebar1">
-			<div class="logosicon-area">
-				<div class="logos">
-					<img src="assets/img/logo/logo2.png" alt="" />
-				</div>
-				<div class="menu-close">
-					<i class="fa-solid fa-xmark"></i>
-				</div>
-			</div>
-			<div class="mobile-nav mobile-nav1">
-				<ul class="mobile-nav-list nav-list1">
-					<li>
-						<a href="#">Home </a>
-						<ul class="sub-menu">
-							<li><a href="index.html">Home One</a></li>
-							<li><a href="index2.html">Home Two</a></li>
-							<li><a href="index3.html">Home Three</a></li>
-							<li><a href="index4.html">Home Four</a></li>
-							<li><a href="index5.html">Home Five</a></li>
-							<li><a href="index6.html">Home Six</a></li>
-							<li><a href="index7.html">Home Seven</a></li>
-							<li><a href="index8.html">Home Eight</a></li>
-							<li><a href="index9.html">Home Nine</a></li>
-							<li><a href="index10.html">Home Ten</a></li>
-						</ul>
-					</li>
-					<li><a href="about.html">About Event</a></li>
-					<li>
-						<a href="features.html">Speakers</a>
-						<ul class="sub-menu">
-							<li><a href="speakers.html">Speakers</a></li>
-							<li><a href="speakers-single.html">Speakers Details</a></li>
-						</ul>
-					</li>
-					<li>
-						<a href="features.html">Schedule</a>
-						<ul class="sub-menu">
-							<li><a href="event.html">Our Event</a></li>
-							<li><a href="event-schedule.html">Event Schedule</a></li>
-							<li><a href="event-single.html">Event Details</a></li>
-						</ul>
-					</li>
-					<li>
-						<a href="#">Blogs</a>
-						<ul class="sub-menu">
-							<li><a href="blog.html">Our Blog</a></li>
-							<li><a href="blog-single.html">Blog Details</a></li>
-						</ul>
-					</li>
-					<li>
-						<a href="#">Pages</a>
-						<ul class="sub-menu">
-							<li><a href="memories.html">Our Memories</a></li>
-							<li><a href="pricing-plan.html">Pricing Plan</a></li>
-							<li><a href="faq.html">FAQ,s</a></li>
-							<li><a href="contact.html">Contact Us</a></li>
-						</ul>
-					</li>
-					<li><a href="contact.html">Contact Us</a></li>
-				</ul>
-				<div class="allmobilesection">
-					<a href="contact.html" class="vl-btn1">Contact Now</a>
-					<div class="single-footer">
-						<h3>Contact Info</h3>
-						<div class="footer1-contact-info">
-							<div class="contact-info-single">
-								<div class="contact-info-icon">
-									<span><i class="fa-solid fa-phone-volume"></i></span>
-								</div>
-								<div class="contact-info-text">
-									<a href="tel:+3(924)4596512">+3(924)4596512</a>
-								</div>
-							</div>
-							<div class="contact-info-single">
-								<div class="contact-info-icon">
-									<span><i class="fa-solid fa-envelope"></i></span>
-								</div>
-								<div class="contact-info-text">
-									<a href="mailto:info@example.com">info@example.com</a>
-								</div>
-							</div>
-							<div class="single-footer">
-								<h3>Our Location</h3>
-								<div class="contact-info-single">
-									<div class="contact-info-icon">
-										<span><i class="fa-solid fa-location-dot"></i></span>
-									</div>
-									<div class="contact-info-text">
-										<a href="mailto:info@example.com"
-											>55 East Birchwood Ave.Brooklyn, <br />
-											New York 11201,United States</a
-										>
-									</div>
-								</div>
-							</div>
-							<div class="single-footer">
-								<h3>Social Links</h3>
-								<div class="social-links-mobile-menu">
-									<ul>
-										<li>
-											<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-										</li>
-										<li>
-											<a href="#"><i class="fa-brands fa-instagram"></i></a>
-										</li>
-										<li>
-											<a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-										</li>
-										<li>
-											<a href="#"><i class="fa-brands fa-youtube"></i></a>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--===== MOBILE HEADER STARTS =======-->
-
-		<!--===== HERO AREA STARTS =======-->
-		<div class="inner-page-header" style="background-image: url(assets/img/bg/header-bg10.png)">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6 m-auto">
-						<div class="heading1 text-center">
-							<h1>Event Schedule</h1>
-							<div class="space20"></div>
-							<a href="index.html">Home <i class="fa-solid fa-angle-right"></i> <span>Event Schedule</span></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--===== HERO AREA ENDS =======-->
-
-		<!--===== OTHERS AREA STARTS =======-->
-		<div class="choose-section-area sp2">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-4 m-auto">
-						<div class="heading2 text-center space-margin60">
-							<h2>Event Schedule</h2>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-4 col-md-6">
-						<div class="choose-widget-boxarea">
-							<div class="icons">
-								<img src="assets/img/icons/choose-icons1.svg" alt="" />
-							</div>
-							<div class="space24"></div>
-							<div class="content-area">
-								<a href="event-single.html">Make Ideas Happen</a>
-								<div class="space16"></div>
-								<p>Eventify 2024 brings together the brightest minds and industry leaders for best of transformative business.</p>
-								<div class="space24"></div>
-								<a href="event-single.html" class="readmore">Read More <i class="fa-solid fa-arrow-right"></i></a>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6">
-						<div class="choose-widget-boxarea">
-							<div class="icons">
-								<img src="assets/img/icons/choose-icons1.svg" alt="" />
-							</div>
-							<div class="space24"></div>
-							<div class="content-area">
-								<a href="event-single.html">Great Speakers</a>
-								<div class="space16"></div>
-								<p>Whether you're looking to elevate your business strategy, discover the latest industry trends, or connect.</p>
-								<div class="space24"></div>
-								<a href="event-single.html" class="readmore">Read More <i class="fa-solid fa-arrow-right"></i></a>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6">
-						<div class="choose-widget-boxarea">
-							<div class="icons">
-								<img src="assets/img/icons/choose-icons1.svg" alt="" />
-							</div>
-							<div class="space24"></div>
-							<div class="content-area">
-								<a href="event-single.html">One Day Ticket</a>
-								<div class="space16"></div>
-								<p>We empower businesses to thrive in an ever-evolving marketplace. This conference more than just an event.</p>
-								<div class="space24"></div>
-								<a href="event-single.html" class="readmore">Read More <i class="fa-solid fa-arrow-right"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--===== OTHERS AREA ENDS =======-->
-
-		<!--===== EVENT AREA STARTS =======-->
-		<div class="schedule-section-area sp10">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-11 m-auto">
-						<div class="schedule">
-							<table>
-								<thead>
-									<tr>
-										<th>Time</th>
-										<th>Friday</th>
-										<th>Saturday</th>
-										<th>Sunday</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>09:00-10:00 AM</td>
-										<td>Business Conferences<br /><span>By Event Organizer</span></td>
-										<td>UI/UX Design<br /><span>By Event Organizer</span></td>
-										<td>UI/UX Design<br /><span>By Event Organizer</span></td>
-									</tr>
-									<tr>
-										<td>09:00-10:00 AM</td>
-										<td>UI/UX Design<br /><span>By Event Organizer</span></td>
-										<td>Business Conferences<br /><span>By Event Organizer</span></td>
-										<td>Business Conferences<br /><span>By Event Organizer</span></td>
-									</tr>
-									<tr>
-										<td>09:00-10:00 AM</td>
-										<td>Business Conferences<br /><span>By Event Organizer</span></td>
-										<td>UI/UX Design<br /><span>By Event Organizer</span></td>
-										<td>UI/UX Design<br /><span>By Event Organizer</span></td>
-									</tr>
-									<tr>
-										<td>09:00-10:00 AM</td>
-										<td>UI/UX Design<br /><span>By Event Organizer</span></td>
-										<td>Business Conferences<br /><span>By Event Organizer</span></td>
-										<td>Business Conferences<br /><span>By Event Organizer</span></td>
-									</tr>
-									<tr>
-										<td>09:00-10:00 AM</td>
-										<td>Business Conferences<br /><span>By Event Organizer</span></td>
-										<td>UI/UX Design<br /><span>By Event Organizer</span></td>
-										<td>UI/UX Design<br /><span>By Event Organizer</span></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--===== EVENT AREA ENDS =======-->
-
-		<!--===== CTA AREA STARTS =======-->
-		<div class="cta1-section-area d-lg-block d-block">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-10 m-auto">
-						<div class="cta1-main-boxarea">
-							<div class="timer-btn-area">
-								<div class="timer">
-									<div class="time-box">
-										<span id="days1" class="time-value">119</span>
-										<br />
-									</div>
-									<div class="space14"></div>
-									<div class="time-box">
-										<span id="hours1" class="time-value">22</span>
-										<br />
-									</div>
-									<div class="space14"></div>
-									<div class="time-box">
-										<span id="minutes1" class="time-value">18</span>
-										<br />
-									</div>
-									<div class="space14"></div>
-									<div class="time-box" style="margin: 0 26px 0 0">
-										<span id="seconds1" class="time-value">44</span>
-										<br />
-									</div>
-								</div>
-								<div class="btn-area1">
-									<a href="pricing-plan.html" class="vl-btn1">Buy Ticket</a>
-								</div>
-							</div>
-							<ul>
-								<li>
-									<a href="#"><img src="assets/img/icons/calender1.svg" alt="" />30 January 2025 - 6pm to 11:30pm</a>
-								</li>
-								<li class="m-0">
-									<a href="#"><img src="assets/img/icons/location1.svg" alt="" />Secret Location In The UK</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--===== CTA AREA ENDS =======-->
-
-		<!--===== CTA AREA STARTS =======-->
-		<div class="cta1-section-area d-lg-none d-block">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-10 m-auto">
-						<div class="cta1-main-boxarea">
-							<div class="timer-btn-area">
-								<div class="timer">
-									<div class="time-box">
-										<span id="days" class="time-value">119</span>
-										<br />
-									</div>
-									<div class="space14"></div>
-									<div class="time-box">
-										<span id="hours" class="time-value">22</span>
-										<br />
-									</div>
-									<div class="space14"></div>
-									<div class="time-box">
-										<span id="minutes" class="time-value">18</span>
-										<br />
-									</div>
-									<div class="space14"></div>
-									<div class="time-box" style="margin: 0 26px 0 0">
-										<span id="seconds" class="time-value">44</span>
-										<br />
-									</div>
-								</div>
-								<div class="btn-area1">
-									<a href="pricing-plan.html" class="vl-btn1">Buy Ticket</a>
-								</div>
-							</div>
-							<ul>
-								<li>
-									<a href="#"><img src="assets/img/icons/calender1.svg" alt="" />30 January 2025 - 6pm to 11:30pm</a>
-								</li>
-								<li class="m-0">
-									<a href="#"><img src="assets/img/icons/location1.svg" alt="" />Secret Location In The UK</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--===== CTA AREA ENDS =======-->
-
-		<!--===== FOOTER AREA STARTS =======-->
-		<div class="footer1-sertion-area">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-3 col-md-6">
-						<div class="footer-logo-area">
-							<img src="assets/img/logo/logo2.png" alt="" />
+						<div class="space24"></div>
+						<div class="content-area">
+							<a href="#">Попълнете</a>
 							<div class="space16"></div>
-							<p>We are committed to creating a platform where business leaders, innovators, and professionals can come together to exchange ideas</p>
-							<div class="space24"></div>
-							<ul>
-								<li>
-									<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-								</li>
-								<li>
-									<a href="#"><i class="fa-brands fa-instagram"></i></a>
-								</li>
-								<li>
-									<a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-								</li>
-								<li>
-									<a href="#" class="m-0"><i class="fa-brands fa-pinterest-p"></i></a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-lg-2 col-md-6">
-						<div class="link-content">
-							<h3>Quick Links</h3>
-							<ul>
-								<li><a href="about.html">About Us</a></li>
-								<li><a href="blog.html">Our Blogs</a></li>
-								<li><a href="event.html">Event Listing</a></li>
-								<li><a href="pricing-plan.html">Pricing Plan</a></li>
-								<li><a href="contact.html">Contact Us</a></li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="col-lg-3 col-md-6">
-						<div class="link-content2">
-							<h3>Contact Us</h3>
-							<ul>
-								<li>
-									<a href="tel:+11234567890"><img src="assets/img/icons/phn1.svg" alt="" />+1 123 456 7890</a>
-								</li>
-								<li>
-									<a href="#"><img src="assets/img/icons/location1.svg" alt="" />Secret Location In The UK</a>
-								</li>
-								<li>
-									<a href="mailto:eventifyevent@gmail.com"><img src="assets/img/icons/mail1.svg" alt="" />eventifyevent@gmail.com</a>
-								</li>
-								<li>
-									<a href="#"> <img src="assets/img/icons/world1.svg" alt="" />eventifyevent.com</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<div class="footer-social-box">
-							<h3>Our Recent Event Gallery</h3>
-							<div class="space12"></div>
-							<div class="row">
-								<div class="col-lg-4 col-md-4 col-4">
-									<div class="img1">
-										<img src="assets/img/all-images/footer/footer-img1.png" alt="" />
-										<div class="icons">
-											<a href="#"><i class="fa-brands fa-instagram"></i></a>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-4 col-md-4 col-4">
-									<div class="img1">
-										<img src="assets/img/all-images/footer/footer-img2.png" alt="" />
-										<div class="icons">
-											<a href="#"><i class="fa-brands fa-instagram"></i></a>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-4 col-md-4 col-4">
-									<div class="img1">
-										<img src="assets/img/all-images/footer/footer-img3.png" alt="" />
-										<div class="icons">
-											<a href="#"><i class="fa-brands fa-instagram"></i></a>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-4 col-md-4 col-4">
-									<div class="img1">
-										<img src="assets/img/all-images/footer/footer-img4.png" alt="" />
-										<div class="icons">
-											<a href="#"><i class="fa-brands fa-instagram"></i></a>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-4 col-md-4 col-4">
-									<div class="img1">
-										<img src="assets/img/all-images/footer/footer-img5.png" alt="" />
-										<div class="icons">
-											<a href="#"><i class="fa-brands fa-instagram"></i></a>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-4 col-md-4 col-4">
-									<div class="img1">
-										<img src="assets/img/all-images/footer/footer-img6.png" alt="" />
-										<div class="icons">
-											<a href="#"><i class="fa-brands fa-instagram"></i></a>
-										</div>
-									</div>
-								</div>
-							</div>
+							<p>Изтеглете необходимото&nbsp;<a
+									href="https://natfiz.bg/wp-content/uploads/2020/06/Zayavlenie.doc"
+									class="mtli_attachment mtli_doc" target="_blank"
+									rel="noopener"><strong>заявление</strong></a> за консултации и&nbsp;<strong><a
+										href="https://natfiz.bg/wp-content/uploads/2020/06/Deklaratsiya-za-lichni-danni.doc"
+										class="mtli_attachment mtli_doc" target="_blank" rel="noopener">декларация за
+										лични
+										данни</a></strong> и ги попълнете.</p>
 						</div>
 					</div>
 				</div>
-				<div class="space60"></div>
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="copyright">
-							<p>&copy; Copyright 2024 -Eventify. All Right Reserved</p>
+
+				<div class="col-lg-4 col-md-6">
+					<div class="choose-widget-boxarea">
+						<div class="icons">
+							<img src="assets/img/icons/icons8-2-50.png" width="32px" height="32px" alt="" />
+						</div>
+						<div class="space24"></div>
+						<div class="content-area">
+							<a href="#">Платете</a>
+							<div class="space16"></div>
+							<p>Извършете плащане по банков път по сметката на НАТФИЗ на сумата, която отговаря на типа
+								консултации.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6">
+					<div class="choose-widget-boxarea">
+						<div class="icons">
+							<img src="assets/img/icons/icons8-3-50.png" width="32px" height="32px" alt="" />
+						</div>
+						<div class="space24"></div>
+						<div class="content-area">
+							<a href="#">Изпратете</a>
+							<div class="space16"></div>
+							<p>Изпратете заявлението, декларацията и копие от бележката от банката за извършеното от Вас
+								плащане на съответния имейл за специалността</p>
 						</div>
 					</div>
 				</div>
 			</div>
+			<div class="row">
+				<div class="col">
+					<p><strong>Заплащането на таксата за кандидатстудентските консултации</strong> става по банков път
+						по сметката на НАТФИЗ:</p>
+					<p>IBAN: BG16BNBG96613100176501<br>
+						BIC: BNBGBGSD<br>
+						БАНКА: БНБ</p>
+					<p>В платежното нареждане трябва да бъде посочено:</p>
+					<ul>
+						<li>Кандидатстудентски консултации – <strong>КСК</strong></li>
+						<li>Съкращението на специалността <em>(съкращението за всяка специалност можете да видите
+								по-горе)<br>
+							</em></li>
+						<li>Датите на кандидатстудентската консултация</li>
+					</ul>
+				</div>
+			</div>
 		</div>
-		<!--===== FOOTER AREA ENDS =======-->
+	</div>
+	<!--===== OTHERS AREA ENDS =======-->
 
-		<!--===== JS SCRIPT LINK =======-->
-		<script src="assets/js/vendor/bootstrap.min.js"></script>
-		<script src="assets/js/vendor/fontawesome.js"></script>
-		<script src="assets/js/vendor/aos.js"></script>
-		<script src="assets/js/vendor/jquery.appear.js"></script>
-		<script src="assets/js/vendor/jquery.odometer.min.js"></script>
-		<script src="assets/js/vendor/sidebar.js"></script>
-		<script src="assets/js/vendor/magnific-popup.js"></script>
-		<script src="assets/js/vendor/gsap.min.js"></script>
-		<script src="assets/js/vendor/ScrollTrigger.min.js"></script>
-		<script src="assets/js/vendor/Splitetext.js"></script>
-		<script src="assets/js/vendor/mobilemenu.js"></script>
-		<script src="assets/js/vendor/owlcarousel.min.js"></script>
-		<script src="assets/js/vendor/nice-select.js"></script>
-		<script src="assets/js/vendor/waypoints.js"></script>
-		<script src="assets/js/vendor/slick-slider.js"></script>
-		<script src="assets/js/vendor/circle-progress.js"></script>
-		<script src="assets/js/main.js"></script>
-	</body>
+	<!--===== CTA AREA STARTS =======-->
+	<div class="cta1-section-area" style="background-color: #FBF9F4;" id="contacts">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-10 m-auto">
+					<div class="cta1-main-boxarea">
+						<h4>Контакти</h4>
+						<ul>
+							<li>
+								<a href="tel:+35929231266"><img src="assets/img/icons/phn1.svg" alt="" />Учебен отдел:
+									02 9231 266 (275, 271)</a>
+							</li>
+							<li>
+								<a href="tel:+35929231303"><img src="assets/img/icons/phn1.svg" alt="" />Каса: 02 9231
+									303</a>
+							</li>
+							<li>
+								<a href="tel:+35929231391"><img src="assets/img/icons/phn1.svg" alt="" />Библиотека:
+									02 9231 391 (392)</a>
+							</li>
+							<li>
+								<a href="tel:+35929231391"><img src="assets/img/icons/phn1.svg" alt="" />Студентско
+									общежитие: 02 868 51 81</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--===== CTA AREA ENDS =======-->
+
+	<!--===== FOOTER AREA STARTS =======-->
+	<div class="footer1-sertion-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12">
+					<div class="footer-logo-area">
+						<img src="assets/img/logo/logo_natfiz_filmeu_t_15042024.png" alt=""
+							style="filter: invert(100%); -webkit-filter: invert(100%)" />
+
+						<div class="space24"></div>
+						<ul>
+							<li>
+								<a href="https://www.facebook.com/natfiz.bg/"><i
+										class="fa-brands fa-facebook-f"></i></a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/natfiz_kr.sarafov/"><i
+										class="fa-brands fa-instagram"></i></a>
+							</li>
+							<li>
+								<a href="https://www.youtube.com/channel/UCydryIcY7swlV_JjbRF10kw"><i
+										class="fa-brands fa-youtube"></i></a>
+							</li>
+							<li>
+								<a
+									href="https://www.linkedin.com/school/national-academy-of-theatre-and-film-arts-kr-sarafov/"><i
+										class="fa-brands fa-linkedin"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-lg-6 col-md-12">
+					<div class="link-content2">
+						<h3>Контакти</h3>
+						<ul>
+							<li>
+								<a href="tel:+35929231303"><img src="assets/img/icons/phn1.svg" alt="" />тел: 02/9231
+									303 / 088 900 2331</a>
+							</li>
+							<li>
+								<a href="#"><img src="assets/img/icons/location1.svg" alt="" />София
+									1000 ул. “Г. С. Раковски” 108А</a>
+							</li>
+							<li>
+								<a href="mailto:info@natfiz.bg"><img src="assets/img/icons/mail1.svg"
+										alt="" />info@natfiz.bg</a>
+							</li>
+							<li>
+								<a href="https://natfiz.bg/">
+									<img src="assets/img/icons/world1.svg" alt="" />https://natfiz.bg/</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="space60"></div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="copyright">
+						<p>&copy; 2024-2025 НАТФИЗ Всички права запазени.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--===== FOOTER AREA ENDS =======-->
+
+	<!--===== JS SCRIPT LINK =======-->
+	<script src="assets/js/vendor/bootstrap.min.js"></script>
+	<script src="assets/js/vendor/fontawesome.js"></script>
+	<script src="assets/js/vendor/aos.js"></script>
+	<script src="assets/js/vendor/jquery.appear.js"></script>
+	<script src="assets/js/vendor/jquery.odometer.min.js"></script>
+	<script src="assets/js/vendor/sidebar.js"></script>
+	<script src="assets/js/vendor/magnific-popup.js"></script>
+	<script src="assets/js/vendor/gsap.min.js"></script>
+	<script src="assets/js/vendor/ScrollTrigger.min.js"></script>
+	<script src="assets/js/vendor/Splitetext.js"></script>
+	<script src="assets/js/vendor/mobilemenu.js"></script>
+	<script src="assets/js/vendor/owlcarousel.min.js"></script>
+	<script src="assets/js/vendor/nice-select.js"></script>
+	<script src="assets/js/vendor/waypoints.js"></script>
+	<script src="assets/js/vendor/slick-slider.js"></script>
+	<script src="assets/js/vendor/circle-progress.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
+
 </html>
