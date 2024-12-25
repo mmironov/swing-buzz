@@ -21339,6 +21339,18 @@ Location:
   line-height: 24px;
 }
 
+.event-side-images ul li {
+  list-style-type: circle !important;
+}
+
+.event-side-images ol li {
+  list-style-type: circle !important;
+}
+
+.testimonials1-section-area ul li {
+  list-style-type: circle !important;
+}
+
 .event-sidepage-section-area li a {
   color: var(--ztc-text-text-16);
   font-family: var(--ztc-family-font1);
