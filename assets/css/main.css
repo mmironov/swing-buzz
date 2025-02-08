@@ -4203,7 +4203,7 @@ Location:
 /*============= HERO CSS AREA ===============*/
 /*============= MOBILE MENU CSS AREA ===============*/
 .mobile-header.mobile-haeder1 {
-  background-image: url(../img/bg/background-5.png);
+  /* background-image: url(../img/bg/background-5.png); */
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
