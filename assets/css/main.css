@@ -467,7 +467,7 @@ img {
 }
 :root {
   --ztc-text-text-1: #fff;
-  --ztc-text-text-2: #1A1719;
+  --ztc-text-text-2: #fff;
   --ztc-text-text-3: #544E51;
   --ztc-text-text-4: #FFBA00;
   --ztc-text-text-5: #032530;
@@ -489,6 +489,7 @@ img {
   --ztc-bg-bg-1: #fff;
   --ztc-bg-bg-2: #1A1719;
   --ztc-bg-bg-3: #FFBA00;
+  --ztc-yellow: #F28A11;
   --ztc-bg-bg-4: #032530;
   --ztc-bg-bg-5: #C0F037;
   --ztc-bg-bg-6: #131E20;
@@ -500,6 +501,7 @@ img {
   --ztc-bg-bg-12: #FF2D55;
   --ztc-bg-bg-13: #0D0400;
   --ztc-bg-bg-14: #4AF8BA;
+  --ztc-accent-accent-1: #e3340c;
   --ztc-border-border-1: #E5E7EB;
   --ztc-border-border-2: #dfdcdc;
   --ztc-font-size-font-s10: 10px;
@@ -600,12 +602,12 @@ img {
   --ztc-specing-height120: 120px;
   --ztc-specing-height130: 130px;
   --ztc-weight-regular: 400;
-  --ztc-weight-medium: 500;
+  --ztc-weight-medium: 200;
   --ztc-weight-semibold: 600;
   --ztc-weight-bold: 700;
   --ztc-weight-black: 800;
-  --ztc-family-font1: 'Space Grotesk', sans-serif;
-  --ztc-family-font2: 'Figtree', sans-serif;
+  --ztc-family-font1: 'Nunito Sans', serif;
+  --ztc-family-font2: 'Nunito Sans', serif;
 }
 
 /*
@@ -1108,17 +1110,37 @@ Location:
   font-family: var(--ztc-family-font1);
   font-size: var(--ztc-font-size-font-s20);
   font-style: normal;
-  font-weight: var(--ztc-weight-bold);
+  font-weight: var(--ztc-weight-medium);
   line-height: 20px;
   text-transform: uppercase;
   transition: all 0.4s;
   position: relative;
   z-index: 1;
-  background: var(--ztc-bg-bg-3);
-  padding: 16px 20px;
+  background: var(--ztc-accent-accent-1);
+  padding: 10px 20px;
   display: inline-block;
-  border-radius: 8px;
+  border-radius: 90px;
 }
+
+.vl-btn1-transparent {
+  color: var(--ztc-text-text-2);
+  font-family: var(--ztc-family-font1);
+  font-size: var(--ztc-font-size-font-s20);
+  font-style: normal;
+  font-weight: var(--ztc-weight-medium);
+  line-height: 20px;
+  text-transform: uppercase;
+  transition: all 0.4s;
+  position: relative;
+  z-index: 1;
+  background: var(--ztc-accent-accent-1);
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 90px;
+  border: 1px solid white;
+  background-color: transparent;
+}
+
 .vl-btn1:hover {
   transition: all 0.4s;
   color: var(--ztc-text-text-1);
@@ -1154,10 +1176,10 @@ Location:
   height: 100%;
   width: 1px;
   transition: all 0.4s;
-  background: var(--ztc-bg-bg-2);
+  background: var(--ztc-yellow);
   left: 50%;
   top: 0;
-  border-radius: 7px;
+  border-radius: 70px;
   visibility: hidden;
   opacity: 0;
   z-index: -1;
@@ -1610,7 +1632,7 @@ Location:
 }
 
 .sp2 {
-  padding: 100px 0 70px;
+  padding: 30px 0 70px;
 }
 @media (max-width: 767px) {
   .sp2 {
@@ -1951,12 +1973,13 @@ Location:
 .hero1-section-area {
   position: relative;
   z-index: 1;
-  background-image: url(../img/bg/header-bg1.png);
+  background-image: url(../img/background.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 196px 0 130px;
+  padding: 196px 0 50px;
   overflow: hidden;
+  min-height: 700px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero1-section-area {
@@ -4209,6 +4232,7 @@ Location:
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: fixed;
+  background-color: black;
 }
 .mobile-header.mobile-haeder1 .mobile-logo {
   width: 150px;
@@ -4221,10 +4245,10 @@ Location:
 }
 
 .mobile-sidebar.mobile-sidebar1 {
-  background: #fff;
+  background: var(--ztc-bg-bg-2);
 }
 .mobile-sidebar.mobile-sidebar1 .menu-close {
-  color: var(--ztc-bg-bg-2);
+  color: var(--ztc-bg-bg-1);
 }
 .mobile-sidebar.mobile-sidebar1 .mobile-nav.mobile-nav1 ul span.submenu-button:before {
   background: var(--ztc-text-text-2);
@@ -4233,7 +4257,7 @@ Location:
   background: var(--ztc-text-text-2);
 }
 .mobile-sidebar.mobile-sidebar1 .mobile-nav.mobile-nav1 ul li a {
-  color: var(--ztc-bg-bg-2);
+  color: var(--ztc-bg-bg-1);
   font-family: var(--ztc-family-font1) !important;
 }
 .mobile-sidebar.mobile-sidebar1 .allmobilesection .vl-btn1 {
@@ -4246,7 +4270,7 @@ Location:
   font-size: var(--ztc-font-size-font-s24);
   line-height: var(--ztc-font-size-font-s20);
   font-weight: var(--ztc-weight-bold);
-  color: var(--ztc-bg-bg-2);
+  color: var(--ztc-bg-bg-1);
   margin-top: 20px;
 }
 .mobile-sidebar.mobile-sidebar1 .footer1-contact-info .contact-info-single {
@@ -4271,7 +4295,7 @@ Location:
   font-size: var(--ztc-font-size-font-s16);
   line-height: var(--ztc-font-size-font-s20);
   font-weight: var(--ztc-weight-regular);
-  color: var(--ztc-bg-bg-2);
+  color: var(--ztc-bg-bg-1);
   transition: all 0.4s;
   display: inline-block;
   margin-left: 10px;
@@ -5974,7 +5998,7 @@ Location:
   transition: all 0.4s;
   color: var(--ztc-text-text-2);
   border-radius: 165px;
-  background: rgba(26, 23, 25, 0.05);
+  background: var(--ztc-accent-accent-1);
   font-size: var(--ztc-font-size-font-s18);
   margin: 0 6px 0 0;
 }
@@ -8398,7 +8422,7 @@ Location:
   animation-name: fade-in-down;
   animation-duration: 1s;
   animation-fill-mode: forwards;
-  background-image: url(../img/bg/background-5.png);
+  background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
   transition: all 0.4s;
@@ -8426,7 +8450,6 @@ Location:
 }
 .homepage1-body .header-area.homepage1 .header-elements .site-logo img {
   width: auto;
-  height: 100px;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -8756,7 +8779,7 @@ Location:
   animation-duration: 1s;
   animation-fill-mode: forwards;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
-  background-image: url(../img/bg/background-5.png);
+  background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
   transition: all 0.4s;
@@ -12676,7 +12699,7 @@ Location:
 
 .loading {
   border: 1px solid transparent;
-  border-color: transparent var(--ztc-text-text-1) transparent var(--ztc-text-text-1);
+  border-color: transparent var(--ztc-text-text-10) transparent var(--ztc-text-text-1);
   animation: rotate-loading 1.5s linear 0s infinite normal;
   transform-origin: 50% 50%;
 }
@@ -12915,13 +12938,13 @@ Location:
 /*============= OTHERS CSS AREA ENDS ===============*/
 /*============= CHOOSE CSS AREA STARTS ===============*/
 .choose-section-area {
-  background: #FBF9F4;
+  background: var(--ztc-bg-bg-2);
   position: relative;
   z-index: 1;
 }
 
 .choose-section-area p a {
-  color: var(--ztc-text-text-16);
+  color: var(--ztc-text-text-1);
   text-align: center;
   font-family: var(--ztc-family-font2);
   font-size: var(--ztc-font-size-font-s18);
@@ -13990,7 +14013,7 @@ Location:
 .brands1-section-area {
   position: relative;
   z-index: 1;
-  background: #FBF9F4;
+  background: var(--ztc-bg-bg-2);
 }
 .brands1-section-area .brand-box {
   border-radius: 8px;
@@ -17464,7 +17487,7 @@ Location:
   margin-bottom: -130px;
 }
 .cta1-section-area .cta1-main-boxarea {
-  background: var(--ztc-bg-bg-3);
+  background: var(--ztc-yellow);
   border-radius: 8px;
   padding: 44px;
 }
@@ -19314,7 +19337,7 @@ Location:
 .about1-section-area .about-header-area .about-auhtor-box {
   position: relative;
   z-index: 1;
-  background: #FBF9F4;
+  background: var(--ztc-yellow);
   border-radius: 8px;
   padding: 20px 24px;
   transition: all 0.4s;
@@ -20420,7 +20443,8 @@ Location:
 .event1-section-area {
   position: relative;
   z-index: 1;
-  background: #FBF9F4;
+  background: var(--ztc-bg-bg-2);
+  color: var(--ztc-text-text-1);
 }
 .event1-section-area .nav.nav-pills {
   justify-content: center;
@@ -21970,7 +21994,7 @@ Location:
 }
 
 .schedule-section-area {
-  background: #FBF9F4;
+  background: var(--ztc-bg-bg-2);
 }
 
 .schedule-section-area .schedule {
