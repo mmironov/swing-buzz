@@ -18763,7 +18763,7 @@ Location:
   line-height: 90px;
   text-align: center;
   border-radius: 50%;
-  background: var(--ztc-bg-bg-3);
+  background: var(--ztc-accent-accent-1);
   z-index: 4; /* Even above the container to ensure clickability */
   transition: all 0.4s;
 }
