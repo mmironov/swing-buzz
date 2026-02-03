@@ -104,6 +104,8 @@ p, li {
         margin-right:auto;
         width: 500px;
         max-width: 70%;
+        margin-top: -60px;
+        margin-bottom: 40px;
       }
 
       .passes > .pass:not(:last-child) {
