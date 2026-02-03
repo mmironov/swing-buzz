@@ -1977,7 +1977,7 @@ Location:
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 196px 0 50px;
+  padding: 240px 0 50px;
   overflow: hidden;
   min-height: 700px;
 }
@@ -1989,6 +1989,7 @@ Location:
 @media (max-width: 767px) {
   .hero1-section-area {
     padding: 150px 0 60px;
+    background-image: url(../img/background-mobile.jpg);
   }
 }
 .hero1-section-area .header-bg1 {
