@@ -1159,16 +1159,7 @@ Location:
   transition: all 0.4s;
 }
 .vl-btn1::after {
-  position: absolute;
-  content: "";
-  height: 36px;
-  width: 36px;
-  transition: all 0.4s;
-  border-radius: 50%;
-  background: var(--ztc-bg-bg-2);
-  opacity: 0.1;
-  left: 8px;
-  top: 8px;
+  display: none;
 }
 .vl-btn1::before {
   position: absolute;
