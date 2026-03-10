@@ -1139,6 +1139,7 @@ Location:
   border-radius: 90px;
   border: 1px solid white;
   background-color: transparent;
+  box-sizing: border-box;
 }
 
 .vl-btn1:hover {
