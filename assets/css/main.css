@@ -12704,11 +12704,11 @@ Location:
 
 #loading-icon {
   position: absolute;
-  top: 48%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   height: 70px;
-  width: 60px;
+  width: 70px;
 }
 
 @keyframes rotate-loading {
