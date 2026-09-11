@@ -137,3 +137,19 @@ img.footer-logo {
 .special-sessions-intro p {
     font-size: 20px;
 }
+
+/* Passes row: keep 5 cards per row and wrap the rest onto a second row */
+@media only screen and (min-width: 768px) {
+    #passes .passes {
+        gap: 30px;
+    }
+
+    #passes .passes > .pass {
+        flex: 0 0 auto;
+        width: calc(20% - 25px);
+    }
+
+    #passes .passes > .pass:not(:last-child) {
+        margin-right: 0;
+    }
+}
