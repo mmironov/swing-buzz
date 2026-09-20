@@ -304,6 +304,10 @@ img.footer-logo {
     background-color: #7209b7;
 }
 
+.schedule-block-title.is-checkin {
+    background-color: #004aad;
+}
+
 .schedule-block-title.is-evening {
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.3);
