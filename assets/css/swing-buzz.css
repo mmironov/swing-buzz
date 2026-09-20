@@ -203,6 +203,15 @@ img.footer-logo {
     vertical-align: -3px;
 }
 
+.schedule-day-head .schedule-venue a {
+    color: var(--ztc-text-text-1);
+    transition: color 0.3s;
+}
+
+.schedule-day-head .schedule-venue a:hover {
+    color: var(--ztc-yellow);
+}
+
 .schedule-block {
     margin-bottom: 32px;
 }
