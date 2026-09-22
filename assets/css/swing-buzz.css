@@ -497,3 +497,20 @@ img.footer-logo {
         padding: 120px 0 10px;
     }
 }
+
+/* ===== Sofia Throwdown Contest page ===== */
+.contest-venue img {
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+    vertical-align: -3px;
+}
+
+.contest-venue a {
+    color: var(--ztc-text-text-1);
+    transition: color 0.3s;
+}
+
+.contest-venue a:hover {
+    color: var(--ztc-yellow);
+}
