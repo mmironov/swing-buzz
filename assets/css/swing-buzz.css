@@ -134,7 +134,8 @@ img.footer-logo {
     background: #7209b7;
 }
 
-.special-sessions-intro p {
+.special-sessions-intro p,
+.passes-intro p {
     font-size: 20px;
 }
 
