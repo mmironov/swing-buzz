@@ -377,6 +377,11 @@ img.footer-logo {
     font-size: var(--ztc-font-size-font-s18);
 }
 
+.schedule-class-title {
+    font-weight: var(--ztc-weight-bold);
+    font-style: italic;
+}
+
 .schedule-note {
     font-weight: var(--ztc-weight-medium);
     opacity: 0.85;
